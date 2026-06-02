@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
 ---
-![Version](https://img.shields.io/badge/Version%208.0.0-%23ebedf0?logoColor=%23040105&labelColor=%23ebedf0&color=%23ebedf0&style=flat)
+
 # Linux / MAC
 
 ### Prerequisites
@@ -35,12 +35,6 @@ Now right click anywhere in the file manager  and click **open in terminal**:
 ![.bat file preview](../static/img/linux/open-in-terminal.png)
 
 
-Now type `sudo su` in the terminal to gain elevated privilages whcih is required for the installation procedure:
-
-![sudo permissions](../static/img/linux/sudo-su.png)
-- You can type `ls` to see the **install.sh** file there
-
-
 ## Step 3: Install using install.bash file
 
 Type `./install.sh` to start the installation:
@@ -54,17 +48,25 @@ a) Verify the IP address is valid or incorrect after that. If true, provide **�
 
 ![IP Address prompt](../static/img/linux/ip-address-prompt.png)
 
-b) Now to install “Analytics” enter ‘y’:
+b) Now select the installation type by enterring the corresponding number (Opensource/premium):
+
+![installation type prompt](../static/img/linux/installation-type.png)
+
+c) Now to install “Analytics” enter ‘y’:
 
 ![Redash analytics prompt](../static/img/linux/analytics-prompt.png)
 - If you need Redash Analytics Engine in the installation, provide **‘y’** as the answer, or else answer **‘n’**. (To know more about Redash Analytics Engine, please visit [Redash](https://redash.io/help/) ).
 
-c) Now it will ask to install **formsflow data analysis** api in the installation. Chose **'y'** or **'n'** according to your preference:
+d) Now it will ask to install **formsflow data analysis** api in the installation. Chose **'y'** or **'n'** according to your preference:
 
 ![formsflow data analysis api prompt](../static/img/linux/formsflow-analytics-api-prompt.png)
 
+e) Now it will show the installation summary and prompt to begin the installation with the settings shown in summary:
 
-d) Now it will ask for *Redash API Key*:
+![installation begin](../static/img/linux/installation-begin.png)
+ - Press **'y'** to begin the installation with the settings shown in summary.
+
+f) Now it will ask for *Redash API Key*:
 ![redash api key prompt](../static/img/linux/redash-prompt.png)
 - The Redash application should be available for use at port defaulted to 7000. Open http://localhost:7001/ on your machine and register with any valid credentials:
  ![redash landing page](../static/img/linux/redash-landing.png)
@@ -72,7 +74,7 @@ d) Now it will ask for *Redash API Key*:
 - Then the API Key can be found at settings > Account > API Key.
  ![redash api page](../static/img/linux/redash-api-page.png)
 
-e) After the installation process has been completed it will show **formsflow.ai is successfully installed**.
+g) After the installation process has been completed it will show **formsflow.ai is successfully installed**.
 
 ![Completed](../static/img/linux/complete.png)
 

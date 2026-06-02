@@ -40,19 +40,23 @@ b) The installation process will start and you will be presented with your IP Ad
 
 ![IP Address prompt](../static/img/7.3.0/latest/ip-address-prompt.png)
 
-c) Now to install “Analytics” enter **‘y’**. (You will asked to enter the Redash API key later)
+c) Now select the installation type by enterring the corresponding number (Opensource/premium):
+
+![installation type prompt](../static/img/7.3.0/latest/installation-type.png)
+
+d) Now to install “Analytics” enter **‘y’**. (You will asked to enter the Redash API key later)
 
 ![analytics installation prompt](../static/img/7.3.0/latest/analytics.png)
 
-d) Now it will ask to include **formsflow data analysis api** in the installation. Chose **'y'** or **'n'** according to your preference:
+e) Now it will ask to include **formsflow data analysis api** in the installation. Chose **'y'** or **'n'** according to your preference:
 
 ![formsflow data analysis api prompt](../static/img/7.3.0/latest/analysis-api.png)
 
-e) Now it will show the installation summary with the configurations and option you selected. Just enter **'y'** to start the installation (or **'n'** to cancel the installation):
+f) Now it will show the installation summary with the configurations and option you selected. Just enter **'y'** to start the installation (or **'n'** to cancel the installation):
 
 ![Installation summary](../static/img/7.3.0/latest/installation-summary.png)
 
-f) Now it will ask for the Redash API key:
+g) Now it will ask for the Redash API key:
 
 ![Redash API Key prompt](../static/img/7.3.0/latest/redash-api.png)
 
