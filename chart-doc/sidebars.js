@@ -6,8 +6,8 @@ const sidebars = {
     {
       type: 'category',
       label: 'Kubernetes',
-      items: ['intro','eks'], 
-      collapsed: true, 
+      items: ['intro', 'eks'],
+      collapsed: true,
     },
   ],
 };
