@@ -57,7 +57,7 @@ d) As part of the installation, if the user has chosen the option to install wit
 
 e) Now it will ask to include **formsflow data analysis api** in the installation. Chose **'y'** or **'n'** according to your preference:
 
-![formsflow data analysis api prompt](../static/img/data-analysis-api-prompt.png)
+![formsflow data analysis api prompt](../static/img/analytics-api-prompt.png)
 
 f) Once the installation is complete, the command prompt displays the **Formsflow.ai is successfully installed** and press any key to finish the installation. The Docker Desktop displays all the installed containers:
 

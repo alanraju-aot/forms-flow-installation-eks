@@ -79,7 +79,7 @@ b) Now to install “Analytics” enter ‘y’:
 c) Now it will ask for *Redash API Key*:
 ![redash api key prompt](../static/img/7.3.0/linux/redash-prompt.png)
 - The Redash application should be available for use at port defaulted to 7000. Open http://localhost:7001/ on your machine and register with any valid credentials:
- ![redash landing page](../static/img/linux/redash-landing.png)
+ ![redash landing page](../static/img/7.3.0/redash-landing.png)
 
 - Then the API Key can be found at settings > Account > API Key.
  ![redash api page](../static/img/7.3.0/linux/redash-api-page.png)
